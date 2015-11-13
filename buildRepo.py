@@ -157,6 +157,8 @@ def buildRepositoryPlugin():
  
 if __name__ == '__main__':
 
+  checkDir('localPlugins')
+  
   shutil.rmtree('repo')
   checkDir('repo')
 
