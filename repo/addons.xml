@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.video.lrt.lt" name="LRT" provider-name="Vytautas Mickus" version="0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="2.0.10" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">lrt.lt media player</summary>
+    <summary lang="lt">lrt.lt media grotuvas</summary>
+    <description lang="en">Watch content from lrt.lt</description>
+    <description lang="lt">Pamatyk lrt.lt video turinį ir tiesiogines transliacijas</description>
+    <platform>all</platform>
+    <language>lt</language>
+    <license>GPLv2</license>
+    <source>https://github.com/Vytax/plugin.video.lrt.lt</source>
+    <email>vmickus@gmail.com</email>
+  </extension>
+</addon><addon id="plugin.video.lnk.lt" name="LNK GO" provider-name="Vytautas Mickus" version="0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="2.0.10" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">LNK Go media player</summary>
+    <summary lang="lt">LNK Go media grotuvas</summary>
+    <description lang="en">Watch content from http://lnkgo.alfa.lt/</description>
+    <description lang="lt">Pamatyk http://lnkgo.alfa.lt/ video turinį.</description>
+    <platform>all</platform>
+    <language>lt</language>
+    <license>GPLv2</license>
+    <source>https://github.com/Vytax/plugin.video.lnk.lt</source>
+    <email>vmickus@gmail.com</email>
+  </extension>
+</addon><addon id="plugin.video.delfi.lt" name="Delfi TV" provider-name="Vytautas Mickus" version="0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="2.0.10" />
+    <import addon="plugin.video.youtube" version="5.0.0" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">DELFI TV media player</summary>
+    <summary lang="lt">DELFI TV media grotuvas</summary>
+    <description lang="en">Watch content from delfi.lt/video</description>
+    <description lang="lt">Pamatyk delfi.lt/video turinį ir tiesiogines transliacijas</description>
+    <platform>all</platform>
+    <language>lt</language>
+    <license>GPLv2</license>
+    <source>https://github.com/Vytax/plugin.video.delfi.lt</source>
+    <email>vmickus@gmail.com</email>
+  </extension>
+</addon><addon id="plugin.video.lrytas.lt" name="Lietuvos Ryto TV" provider-name="Vytautas Mickus" version="0.1.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="2.0.10" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">LRytas TV media player</summary>
+    <summary lang="lt">LRytas TV media grotuvas</summary>
+    <description lang="en">Watch content from http://tv.lrytas.lt/</description>
+    <description lang="lt">Pamatyk http://tv.lrytas.lt/ video turinį.</description>
+    <platform>all</platform>
+    <language>lt</language>
+    <license>GPLv2</license>
+    <source>https://github.com/Vytax/plugin.video.lrytas.lt</source>
+    <email>vmickus@gmail.com</email>
+  </extension>
+</addon><addon id="repository.lt" name="Lithuanian XBMC Addons" provider-name="Vytautas Mickus" version="1.0.0">
+	<extension name="Lithuanian XBMC Addons" point="xbmc.addon.repository">
+		<info compressed="false">https://raw.github.com/vytax/kodi-repo/master/repo/addons.xml</info>
+		<checksum>https://raw.github.com/vytax/kodi-repo/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/vytax/kodi-repo/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install Lithuanian Addons</summary>
+		<summary lang="lt">Įdiekite lietuviškus įskiepius</summary>
+		<description lang="en">Download and install Lithuanian addons</description>
+		<description lang="lt">Parsisiųskite ir įdiekite lietuviškus įskiepius</description>
+		<platform>all</platform>
+	</extension>
+</addon></addons>
