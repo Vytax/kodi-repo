@@ -3,7 +3,7 @@
 	<extension point="xbmc.addon.repository" name="Lithuanian Kodi Addons">
 		<info compressed="true">https://raw.github.com/vytax/kodi-repo/master/repo/addons.xml</info>
 		<checksum>https://raw.github.com/vytax/kodi-repo/master/repo/addons.xml.md5</checksum>
-		<datadir zip="false">https://raw.github.com/vytax/kodi-repo/master/repo/</datadir>
+		<datadir zip="true">https://raw.github.com/vytax/kodi-repo/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install Lithuanian Addons</summary>
