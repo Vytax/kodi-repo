@@ -41,7 +41,7 @@
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
-    <import addon="plugin.video.youtube" version="5.0.0" />
+    <import addon="plugin.video.youtube" optional="true" version="5.1.10" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
@@ -76,11 +76,11 @@
     <source>https://github.com/Vytax/plugin.video.lrytas.lt</source>
     <email>vmickus@gmail.com</email>
   </extension>
-</addon><addon id="repository.lt" name="Lithuanian XBMC Addons" provider-name="Vytautas Mickus" version="1.0.0">
-	<extension name="Lithuanian XBMC Addons" point="xbmc.addon.repository">
+</addon><addon id="repository.lt" name="Lithuanian Kodi Addons" provider-name="Vytax" version="1.0.0">
+	<extension name="Lithuanian Kodi Addons" point="xbmc.addon.repository">
 		<info compressed="false">https://raw.github.com/vytax/kodi-repo/master/repo/addons.xml</info>
 		<checksum>https://raw.github.com/vytax/kodi-repo/master/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/vytax/kodi-repo/master/repo/</datadir>
+		<datadir zip="false">https://raw.github.com/vytax/kodi-repo/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install Lithuanian Addons</summary>

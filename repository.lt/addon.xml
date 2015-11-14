@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.lt" name="Lithuanian XBMC Addons" version="1.0.0" provider-name="Vytautas Mickus">
-	<extension point="xbmc.addon.repository" name="Lithuanian XBMC Addons">
+<addon id="repository.lt" name="Lithuanian Kodi Addons" version="1.0.0" provider-name="Vytax">
+	<extension point="xbmc.addon.repository" name="Lithuanian Kodi Addons">
 		<info compressed="false">https://raw.github.com/vytax/kodi-repo/master/repo/addons.xml</info>
 		<checksum>https://raw.github.com/vytax/kodi-repo/master/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/vytax/kodi-repo/master/repo/</datadir>
+		<datadir zip="false">https://raw.github.com/vytax/kodi-repo/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install Lithuanian Addons</summary>
