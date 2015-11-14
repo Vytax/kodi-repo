@@ -26,8 +26,7 @@ def addPluginFile(pFile):
   print '-----------------------'
   print 'Atidaromas ZIP failas: ' + pFile
   
-  zf = open(pFile, 'r')
-  z = zipfile.ZipFile(zf)
+  z = zipfile.ZipFile(pFile, 'r')
   
   print('Testuojamas ZIP failas:'), 
   if z.testzip() != None:
@@ -57,12 +56,12 @@ def addPluginFile(pFile):
   
   if not addon_xml:
     print 'addon.xml failas nerastas'
-    zf.close()
+    z.close()
     return
 
   if not icon_png:
     print 'icon_png failas nerastas'
-    zf.close()
+    z.close()
     return    
   
   print 'OK'
@@ -74,19 +73,19 @@ def addPluginFile(pFile):
   
   if not addon_id:
     print 'Nenurodytas įskiepio ID'
-    zf.close()
+    z.close()
     return
   
   if not addon_version:
     print "Nenurodyta įskiepio versija"
-    zf.close()
+    z.close()
     return
   
   print 'ID: %s, version: %s' % (addon_id, addon_version)
   
   if addon_id in addonsIDs:
     print "Klaida: Besidubliuojantis įskiepis!"
-    zf.close()
+    z.close()
     return
   
   addonsIDs.append(addon_id)  
@@ -99,7 +98,7 @@ def addPluginFile(pFile):
   ico_file.write(z.read(icon_png))
   ico_file.close()
   
-  zf.close()
+  z.close()
   
   shutil.move(pFile, os.path.join('repo', addon_id, '%s-%s.zip' % (addon_id, addon_version)))
 
@@ -159,10 +158,10 @@ if __name__ == '__main__':
 
   checkDir('localPlugins')
   
-  shutil.rmtree('repo')
+  shutil.rmtree('repo', ignore_errors=True)
   checkDir('repo')
 
-  shutil.rmtree('tmp')
+  shutil.rmtree('tmp', ignore_errors=True)
   checkDir('tmp')
     
   addRemotePlugins()
@@ -175,3 +174,5 @@ if __name__ == '__main__':
   addons_xml.write(addons_xml_file, 'UTF-8')
   
   md5sum(addons_xml_file)
+
+  raw_input('Baigta! Repozitorija sėkmingai sukurta.')
