@@ -76,6 +76,25 @@
     <source>https://github.com/Vytax/plugin.video.lrytas.lt</source>
     <email>vmickus@gmail.com</email>
   </extension>
+</addon><addon id="plugin.audio.pakartot.lt" name="Pakartot.lt" provider-name="Vytautas Mickus" version="0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="2.0.10" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Pakartot.LT audio player</summary>
+    <summary lang="lt">Pakartot.LT muzikos grotuvas</summary>
+    <description lang="en">The biggest lithuanian legal music database.</description>
+    <description lang="lt">Didžiausia legalios lietuviškos muzikos duomenų bazė.</description>
+    <platform>all</platform>
+    <language>lt</language>
+    <license>GPLv2</license>
+    <source>https://github.com/Vytax/plugin.audio.pakartot.lt</source>
+    <email>vmickus@gmail.com</email>
+  </extension>
 </addon><addon id="repository.lt" name="Lithuanian Kodi Addons" provider-name="Vytax" version="1.0.0">
 	<extension name="Lithuanian Kodi Addons" point="xbmc.addon.repository">
 		<info compressed="true">https://raw.github.com/vytax/kodi-repo/master/repo/addons.xml</info>
