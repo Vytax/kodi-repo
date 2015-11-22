@@ -16,4 +16,4 @@
 4. Pasirinkite „Install from zip file“: ![alt tag](https://raw.githubusercontent.com/Vytax/kodi-repo/master/media/howto3.jpg)
 5. Nurodykite pirmojo etapo metu išsaugotą failą: ![alt tag](https://raw.githubusercontent.com/Vytax/kodi-repo/master/media/howto4.jpg)
 6. Repozitorija jau sėkmingai instaliuota. Atverkite „Install from repository“: ![alt tag](https://raw.githubusercontent.com/Vytax/kodi-repo/master/media/howto5.jpg)
-7. Pasirinkite įskiepius kuriuos norite instaliuoti: ![alt tag](https://raw.githubusercontent.com/Vytax/kodi-repo/master/media/howto6.jpg)
+7. Atverkite "Lithuanian Kodi Addons" ir išsirinkite įskiepius kuriuos norite instaliuoti: ![alt tag](https://raw.githubusercontent.com/Vytax/kodi-repo/master/media/howto6.jpg)
