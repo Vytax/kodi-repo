@@ -76,7 +76,7 @@
     <source>https://github.com/Vytax/plugin.video.lrytas.lt</source>
     <email>vmickus@gmail.com</email>
   </extension>
-</addon><addon id="plugin.audio.pakartot.lt" name="Pakartot.lt" provider-name="Vytautas Mickus" version="0.2">
+</addon><addon id="plugin.audio.pakartot.lt" name="Pakartot.lt" provider-name="Vytautas Mickus" version="0.3">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
