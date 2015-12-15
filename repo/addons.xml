@@ -76,7 +76,7 @@
     <source>https://github.com/Vytax/plugin.video.lrytas.lt</source>
     <email>vmickus@gmail.com</email>
   </extension>
-</addon><addon id="plugin.audio.pakartot.lt" name="Pakartot.lt" provider-name="Vytautas Mickus" version="0.3">
+</addon><addon id="plugin.audio.pakartot.lt" name="Pakartot.lt" provider-name="Vytautas Mickus" version="0.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
@@ -93,6 +93,25 @@
     <language>lt</language>
     <license>GPLv2</license>
     <source>https://github.com/Vytax/plugin.audio.pakartot.lt</source>
+    <email>vmickus@gmail.com</email>
+  </extension>
+</addon><addon id="plugin.video.tv3.lt" name="TV3" provider-name="Vytautas Mickus" version="0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="2.0.10" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">play.tv3.lt media player</summary>
+    <summary lang="lt">play.tv3.lt media grotuvas</summary>
+    <description lang="en">Watch content from play.tv3.lt</description>
+    <description lang="lt">Pamatyk play.tv3.lt video turinį ir tiesiogines transliacijas</description>
+    <platform>all</platform>
+    <language>lt</language>
+    <license>GPLv2</license>
+    <source>https://github.com/Vytax/plugin.video.tv3.lt</source>
     <email>vmickus@gmail.com</email>
   </extension>
 </addon><addon id="repository.lt" name="Lithuanian Kodi Addons" provider-name="Vytax" version="1.0.0">
