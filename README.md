@@ -9,6 +9,7 @@
 * [plugin.video.lnk.lt](https://github.com/Vytax/plugin.video.lnk.lt) LNK Go (LNK, BTV, Info TV)
 * [plugin.video.lrytas.lt](https://github.com/Vytax/plugin.video.lrytas.lt) Lietuvos Ryto TV
 * [plugin.audio.pakartot.lt](https://github.com/Vytax/plugin.audio.pakartot.lt) Pakartot.LT
+* [plugin.video.tv3.lt](https://github.com/Vytax/plugin.video.tv3.lt) TV3 Play
 
 ## Instaliavimas
 1. Parsisiųskite [repozitorijos failą](https://raw.githubusercontent.com/Vytax/kodi-repo/master/repo/repository.lt/repository.lt-1.0.0.zip) ir išsaugokite jį kietąjame diske.
