@@ -37,7 +37,7 @@
     <source>https://github.com/Vytax/plugin.video.lnk.lt</source>
     <email>vmickus@gmail.com</email>
   </extension>
-</addon><addon id="plugin.video.delfi.lt" name="Delfi TV" provider-name="Vytautas Mickus" version="0.1">
+</addon><addon id="plugin.video.delfi.lt" name="Delfi TV" provider-name="Vytautas Mickus" version="0.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
