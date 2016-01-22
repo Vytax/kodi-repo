@@ -114,6 +114,22 @@
     <source>https://github.com/Vytax/plugin.video.tv3.lt</source>
     <email>vmickus@gmail.com</email>
   </extension>
+</addon><addon id="plugin.weather.meteo.lt" name="Lithuanian Hydrometeorological Service" provider-name="Vytautas Mickus" version="0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="3.3.0" />
+    <import addon="script.module.beautifulsoup" version="3.2.1" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.weather" />
+  <extension point="xbmc.addon.metadata"> 
+    <summary lang="en">Weather forecast from meteo.lt</summary>
+    <summary lang="lt_LT">Orų prognozė iš meteo.lt</summary>
+    <language>lt</language>
+    <platform>all</platform>
+    <license>GPLv2</license>
+    <email>vmickus@gmail.com</email>
+    <source>https://github.com/Vytax/plugin.weather.meteo.lt</source>
+  </extension>
 </addon><addon id="repository.lt" name="Lithuanian Kodi Addons" provider-name="Vytax" version="1.0.0">
 	<extension name="Lithuanian Kodi Addons" point="xbmc.addon.repository">
 		<info compressed="true">https://raw.github.com/vytax/kodi-repo/master/repo/addons.xml</info>
