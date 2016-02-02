@@ -130,6 +130,27 @@
     <email>vmickus@gmail.com</email>
     <source>https://github.com/Vytax/plugin.weather.meteo.lt</source>
   </extension>
+</addon><addon id="plugin.video.interneto.tv" name="TEO Interneto.tv" provider-name="Vytautas Mickus" version="0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.beautifulsoup4" version="4.3.1" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.common.plugin.cache" version="2.5.6" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Interneto.tv media player</summary>
+    <summary lang="lt">Interneto.tv media grotuvas</summary>
+    <description lang="en">Watch live TV online from http://www.interneto.tv .</description>
+    <description lang="lt">Pamatyk http://www.interneto.tv internetinę televiziją.</description>
+    <platform>all</platform>
+    <language>lt</language>
+    <license>GPLv2</license>
+    <source>https://github.com/Vytax/plugin.video.interneto.tv</source>
+    <email>vmickus@gmail.com</email>
+  </extension>
 </addon><addon id="repository.lt" name="Lithuanian Kodi Addons" provider-name="Vytax" version="1.0.0">
 	<extension name="Lithuanian Kodi Addons" point="xbmc.addon.repository">
 		<info compressed="true">https://raw.github.com/vytax/kodi-repo/master/repo/addons.xml</info>
