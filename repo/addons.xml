@@ -151,6 +151,19 @@
     <source>https://github.com/Vytax/plugin.video.interneto.tv</source>
     <email>vmickus@gmail.com</email>
   </extension>
+</addon><addon id="service.interneto.tv" name="Interneto.tv proxy service" provider-name="" version="0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.beautifulsoup4" version="4.3.1" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.elementtree" />
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension library="runKodi.py" point="xbmc.service" start="start" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en" />
+  </extension>
 </addon><addon id="repository.lt" name="Lithuanian Kodi Addons" provider-name="Vytax" version="1.0.0">
 	<extension name="Lithuanian Kodi Addons" point="xbmc.addon.repository">
 		<info compressed="true">https://raw.github.com/vytax/kodi-repo/master/repo/addons.xml</info>

@@ -6,3 +6,4 @@ https://github.com/Vytax/plugin.audio.pakartot.lt/archive/master.zip
 https://github.com/Vytax/plugin.video.tv3.lt/archive/master.zip
 https://github.com/Vytax/plugin.weather.meteo.lt/archive/master.zip
 https://github.com/Vytax/plugin.video.interneto.tv/archive/master.zip
+https://github.com/Vytax/service.interneto.tv/archive/master.zip
