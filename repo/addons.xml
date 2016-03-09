@@ -151,7 +151,7 @@
     <source>https://github.com/Vytax/plugin.video.interneto.tv</source>
     <email>vmickus@gmail.com</email>
   </extension>
-</addon><addon id="service.interneto.tv" name="Interneto.tv proxy service" provider-name="" version="0.1">
+</addon><addon id="service.interneto.tv" name="Interneto.tv proxy service" provider-name="Vytautas Mickus" version="0.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.1" />
