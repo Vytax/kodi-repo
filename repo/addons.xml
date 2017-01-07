@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.lrt.lt" name="LRT" provider-name="Vytautas Mickus" version="0.3">
+<addons><addon id="plugin.video.lrt.lt" name="LRT" provider-name="Vytautas Mickus" version="0.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
+    <import addon="plugin.video.youtube" optional="true" version="5.1.10" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
