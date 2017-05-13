@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.lrt.lt" name="LRT" provider-name="Vytautas Mickus" version="0.5">
+<addons><addon id="plugin.video.lrt.lt" name="LRT" provider-name="Vytautas Mickus" version="0.6">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
