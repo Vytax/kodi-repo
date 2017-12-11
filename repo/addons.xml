@@ -96,7 +96,7 @@
     <source>https://github.com/Vytax/plugin.audio.pakartot.lt</source>
     <email>vmickus@gmail.com</email>
   </extension>
-</addon><addon id="plugin.video.tv3.lt" name="TV3" provider-name="Vytautas Mickus" version="0.2">
+</addon><addon id="plugin.video.tv3.lt" name="TV3" provider-name="Vytautas Mickus" version="0.3">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
