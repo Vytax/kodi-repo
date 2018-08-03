@@ -19,7 +19,7 @@
     <source>https://github.com/Vytax/plugin.video.lrt.lt</source>
     <email>vmickus@gmail.com</email>
   </extension>
-</addon><addon id="plugin.video.lnk.lt" name="LNK GO" provider-name="Vytautas Mickus" version="0.4">
+</addon><addon id="plugin.video.lnk.lt" name="LNK GO" provider-name="Vytautas Mickus" version="0.4.1">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
